@@ -10,7 +10,7 @@ export default function TicketSelection({
 }) {
   return (
     <div>
-      <div className="sm:border sm:border-[#0e464f] rounded-2xl my-8 min-w-[300px] sm:w-[650px] -ml-4 sm:-ml-2 bg-[#08252b sm:px-6">
+      <div className="sm:border sm:border-[#0e464f] rounded-2xl my-8 min-w-[300px] sm:w-[650px] -ml-4 sm:-ml-2 bg-[#08252b] sm:px-6">
         <div
           className="flex items-center flex-col justify-center gap-2 border border-[#07373F] py-4 rounded-2xl my-4 backdrop-blur-[7px] min-w-[280px] shadow-2xl "
           style={{
@@ -65,15 +65,25 @@ export default function TicketSelection({
 
         <p className="font-roboto text-[16px] mb-2">Number of Tickets</p>
         <select
-          className="border w-full rounded-md py-2 border-[#07373F] mb-6 px-2 box-border text-white outline-none "
+          className="border w-full rounded-md py-2 border-[#07373F]  mb-6 px-2 box-border text-white  outline-none bg-[#08252b]  "
           value={ticketNo}
           onChange={(e) => setTicketNo(e.target.value)}
         >
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
+          <option value="1" className="hover:bg-[#12464e]">
+            1
+          </option>
+          <option value="2" className="hover:bg-[#12464e]">
+            2
+          </option>
+          <option value="3" className="hover:bg-[#12464e]">
+            3
+          </option>
+          <option value="4" className="hover:bg-[#12464e]">
+            4
+          </option>
+          <option value="5" className="hover:bg-[#12464e]">
+            5
+          </option>
         </select>
 
         <div className=" flex flex-col-reverse sm:flex sm:flex-row items-center justify-between mb-8 mt-6 w-full gap-4">
