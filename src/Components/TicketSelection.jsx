@@ -10,7 +10,7 @@ export default function TicketSelection({
 }) {
   return (
     <div>
-      <div className="sm:border sm:border-[#0e464f] rounded-2xl my-8 min-w-[300px] sm:w-[650px] -ml-4 sm:ml-0 bg-[#08252b sm:px-6">
+      <div className="sm:border sm:border-[#0e464f] rounded-2xl my-8 min-w-[300px] sm:w-[650px] -ml-4 sm:-ml-2 bg-[#08252b sm:px-6">
         <div
           className="flex items-center flex-col justify-center gap-2 border border-[#07373F] py-4 rounded-2xl my-4 backdrop-blur-[7px] min-w-[280px] "
           style={{
@@ -79,7 +79,7 @@ export default function TicketSelection({
           <option value="5">5</option>
         </select>
 
-        <div className=" flex flex-col-reverse sm:flex sm:flex-row items-center justify-between mb-8 w-full gap-4">
+        <div className=" flex flex-col-reverse sm:flex sm:flex-row items-center justify-between mb-8 mt-6 w-full gap-4">
           <button
             className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] rounded-lg xs:w-[100%] sm:w-[48%]  cursor-pointer outline-none"
             onClick={() => {

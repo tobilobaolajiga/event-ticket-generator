@@ -93,7 +93,7 @@ export default function Form({ showTicket, goBack }) {
   return (
     <div>
       <form
-        className="sm:border sm:border-[#0e464f] bg-[#08252b] rounded-2xl px-6 my-8 min-w-[300px] sm:max-w-[600px] -ml-4 sm:ml-4 py-6"
+        className="sm:border sm:border-[#0e464f] bg-[#08252b] rounded-2xl px-6 my-8 min-w-[300px] sm:max-w-[600px] -ml-4 sm:ml-0 py-6"
         autoComplete="on"
       >
         <div className="flex flex-col bg-[#052228]justify-center gap-2 border bg-[#052228] border-[#07373F] py-4 rounded-2xl my-4">
@@ -172,7 +172,7 @@ export default function Form({ showTicket, goBack }) {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <img src={envelope} className="absolute top-[43px] left-4 " />
+          <img src={envelope} className="absolute top-[42px] left-4 " />
         </div>
         <label className="px-2 my-3 font-roboto text-[16px]">
           {' '}
@@ -187,7 +187,7 @@ export default function Form({ showTicket, goBack }) {
           }}
         ></textarea>
 
-        <div className="items-center justify-between mb-4 px-[4px] w-full flex flex-col-reverse sm:flex sm:flex-row gap-4 sm:gap-0">
+        <div className="items-center justify-between mb-4 w-full flex flex-col-reverse sm:flex sm:flex-row gap-4 sm:gap-0 mt-6">
           <button
             className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] sm:w-[48%] w-full rounded-lg  cursor-pointer outline-none"
             onClick={goBack}

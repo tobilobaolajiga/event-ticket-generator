@@ -54,7 +54,7 @@ export default function PrintTicket({ showTicketSelect }) {
   };
   return (
     <div className="flex flex-col justify-center items-center w-[300px] sm:w-[600px] py-8">
-      <div className="my-8 text-center">
+      <div className=" text-center sm:my-8">
         <p className="text-[24px] sm:text-[32px] font-alatsi">
           Your Ticket is booked!
         </p>
