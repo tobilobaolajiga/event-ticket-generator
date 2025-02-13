@@ -14,8 +14,8 @@ export default function TicketSelection({
         <div
           className="flex items-center flex-col justify-center gap-2 border border-[#07373F] py-4 rounded-2xl my-4 backdrop-blur-[7px] min-w-[280px] shadow-2xl "
           style={{
-            backgroundImage:
-              'radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%)',
+            background:
+              'radial-gradient(57.42% 106.59% at 14.02% 32.06%, rgba(36, 160, 181, 0.20) 0%, rgba(36, 160, 181, 0.00) 100%), rgba(10, 12, 17, 0.10)',
           }}
         >
           <h2 className="text-[54px] sm:text-[62px] font-road -mb-2">
