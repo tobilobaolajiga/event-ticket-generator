@@ -25,7 +25,7 @@ export default function TicketSelection({
             Join us for an unforgettable experience at Techember! Secure your
             spot now.
           </p>
-          <div className="font-roboto text-[16px] flex-col flex items-center justify-center sm:flex sm:flex-row mt-4 sm:mt-0">
+          <div className="font-roboto text-[16px] flex-col flex items-center justify-center sm:flex sm:flex-row mt-4 sm:mt-0 font-light">
             <p>📍Oniru, Lekki</p>
             <div className="flex">
               <p className="mx-[6px] hidden sm:block">||</p>

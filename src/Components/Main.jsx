@@ -18,7 +18,7 @@ export default function Main({
   return (
     <div>
       {ticketSelect && (
-        <div className=" h-fit border border-[#0e464f] rounded-3xl p-8 mx-6 sm:mx-0 bg-[#041e23] max-w-[335px] sm:max-w-[700px] mb-8">
+        <div className=" h-fit border border-[#0e464f] rounded-3xl p-8 mx-6 sm:mx-0 bg-[#08252b] max-w-[335px] sm:max-w-[700px] mb-8">
           <Header title="Ticket Selection" step="1" />
 
           <TicketSelection
