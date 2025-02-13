@@ -61,6 +61,8 @@ export default function Form({ showTicket, goBack }) {
       localStorage.setItem('request', request);
 
       showTicket();
+      console.log(name);
+      console.log(email);
     }
     if (!name) {
       toast.error('Enter your name', {
