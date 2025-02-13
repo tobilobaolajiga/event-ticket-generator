@@ -53,9 +53,9 @@ export default function PrintTicket({ showTicketSelect }) {
     }
   };
   return (
-    <div className="flex flex-col justify-center items-center xs:w-[300px] sm:w-[600px] ">
+    <div className="flex flex-col justify-center items-center w-[300px] sm:w-[600px] py-8">
       <div className="my-8 text-center">
-        <p className="xs:text-[24px] sm:text-[32px] font-alatsi">
+        <p className="text-[24px] sm:text-[32px] font-alatsi">
           Your Ticket is booked!
         </p>
         <p className="font-roboto text-[16px] mt-2">
@@ -66,15 +66,15 @@ export default function PrintTicket({ showTicketSelect }) {
 
       <TicketTemplate ticketRef={ticketRef} />
 
-      <div className="flex items-center justify-between mt-8 px-[4px] w-full sm:-mr-6 xs:flex xs:flex-col-reverse sm:flex sm:flex-row xs:gap-4 sm:gap-0">
+      <div className="items-center justify-between mt-8 px-[4px] w-full sm:-mr-6 flex flex-col-reverse sm:flex sm:flex-row gap-4 sm:gap-0">
         <button
-          className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] xs:w-[100%] sm:w-[48%] rounded-lg  cursor-pointer outline-none"
+          className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] w-[100%] sm:w-[48%] rounded-lg  cursor-pointer outline-none"
           onClick={showTicketSelect}
         >
           Book Another Ticket
         </button>
         <button
-          className="py-2 px-6 text-white bg-[#24a0b5] rounded-lg xs:w-[100%] sm:w-[48%] cursor-pointer outline-none"
+          className="py-2 px-6 text-white bg-[#24a0b5] rounded-lg w-[100%] sm:w-[48%] cursor-pointer outline-none"
           onClick={downloadTicket}
         >
           {loading ? (

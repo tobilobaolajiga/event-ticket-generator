@@ -2,7 +2,7 @@ export default function Header({ title, step }) {
   return (
     <div>
       <div className="sm:flex justify-between items-center w-full flex-wrap">
-        <p className="font-jeju xs:text-[24px] sm:text-[32px]">{title}</p>
+        <p className="font-jeju text-[24px] sm:text-[32px]">{title}</p>
         <p className="font-roboto text-[16px]">Step {step} of 3</p>
       </div>
       <div className="flex">
