@@ -93,14 +93,14 @@ export default function Form({ showTicket, goBack }) {
   return (
     <div>
       <form
-        className="sm:border sm:border-[#0e464f] bg-[#08252b] rounded-2xl px-6 my-8 min-w-[300px] sm:w-[600px] -ml-4 sm:ml-4 py-6"
+        className="sm:border sm:border-[#0e464f] bg-[#08252b] rounded-2xl px-6 my-8 w-[300px] sm:w-[600px] -ml-4 sm:ml-4 py-6"
         autoComplete="on"
       >
         <div className="flex flex-col bg-[#052228]justify-center gap-2 border bg-[#052228] border-[#07373F] py-4 rounded-2xl my-4">
           <label className="px-4 mt-3 mb-10 font-roboto text-[16px]">
             Upload Profile Photo
           </label>
-          <div className="sm:bg-[#000000]/20 flex justify-center mx-4 relative w-[510px] h-[150px] sm:h-[200px] mb-6 group ">
+          <div className="sm:bg-[#000000]/20 flex justify-center mx-4 relative sm:w-[510px] h-[150px] sm:h-[200px] mb-6 group ">
             {!photo && (
               <div
                 className="bg-[#0e464f] sm:w-[250px] rounded-2xl w-[200px] h-[200px] sm:h-[250px] z-10 flex flex-col justify-center items-center text-center text-[#FAFAFA]font-roboto text-[16px] cursor-pointer absolute -bottom-[22px] border border-[#24a0b5] left-2 sm:left-auto"
