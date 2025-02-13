@@ -93,7 +93,7 @@ export default function Form({ showTicket, goBack }) {
   return (
     <div>
       <form
-        className="sm:border sm:border-[#0e464f] bg-[#08252b] rounded-2xl px-6 my-8 w-[300px] sm:w-[600px] -ml-4 sm:ml-4 py-6"
+        className="sm:border sm:border-[#0e464f] bg-[#08252b] rounded-2xl px-6 my-8 w-[300px] sm:w-[600px] -ml-2 sm:ml-4 py-6"
         autoComplete="on"
       >
         <div className="flex flex-col bg-[#052228]justify-center gap-2 border bg-[#052228] border-[#07373F] py-4 rounded-2xl my-4">
