@@ -65,7 +65,7 @@ export default function TicketSelection({
 
         <p className="font-roboto text-[16px] mb-2">Number of Tickets</p>
         <select
-          className="border w-full rounded-md py-2 border-[#07373F] mb-6 px-2 box-border text-white bg-[#02191D] outline-none "
+          className="border w-full rounded-md py-2 border-[#07373F] mb-6 px-2 box-border text-white outline-none "
           value={ticketNo}
           onChange={(e) => setTicketNo(e.target.value)}
         >
