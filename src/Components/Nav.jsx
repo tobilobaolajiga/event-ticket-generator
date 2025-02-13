@@ -6,7 +6,7 @@ export default function Nav() {
     <div className="xs:min-w-[335px] md:w-[80%] w-full flex justify-between items-center border border-[#197686] rounded-2xl mt-6 mb-8 p-2 backdrop-blur-[2px]">
       <img src={logo} alt="Logo" />
 
-      <div className="flex items-center gap-6 text-[#B3B3B3] text-[18px] font-jeju xs:hidden sm:flex">
+      <div className=" sm:items-center sm:gap-6 sm:text-[#B3B3B3] sm:text-[18px] sm:font-jeju hidden sm:flex">
         <p>Events</p>
         <p>My Tickets</p>
         <p>About Project</p>
