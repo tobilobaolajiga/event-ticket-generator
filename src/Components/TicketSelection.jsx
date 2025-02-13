@@ -18,7 +18,7 @@ export default function TicketSelection({
               'radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%)',
           }}
         >
-          <h2 className="text-[54px] sm:text-[62px] font-road -mb-4">
+          <h2 className="text-[54px] sm:text-[62px] font-road -mb-2">
             Techember Fest '25
           </h2>
           <p className="font-roboto text-[14px] sm:text-[16px] text-center mx-4 sm:w-[350px]">
