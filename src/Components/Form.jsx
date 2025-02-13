@@ -71,6 +71,7 @@ export default function Form({ showTicket, goBack }) {
         autoClose: 3000,
         role: 'alert',
       });
+      e.target.blur();
     }
     if (!email) {
       toast.error('Enter your email address', {
@@ -79,6 +80,7 @@ export default function Form({ showTicket, goBack }) {
         autoClose: 3000,
         role: 'alert',
       });
+      e.target.blur();
     }
     if (!photo) {
       toast.error('Upload your photo', {
@@ -87,6 +89,7 @@ export default function Form({ showTicket, goBack }) {
         autoClose: 3000,
         role: 'alert',
       });
+      e.target.blur();
     }
   };
 
