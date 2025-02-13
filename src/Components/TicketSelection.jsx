@@ -26,10 +26,7 @@ export default function TicketSelection({
             spot now.
           </p>
           <div className="font-roboto text-[16px] flex-col flex items-center justify-center sm:flex sm:flex-row mt-4 sm:mt-0">
-            <p>
-              {' '}
-              <i className="ri-map-pin-line mr-[3px]"></i> Oniru, Lekki
-            </p>
+            <p>📍Oniru, Lekki</p>
             <div className="flex">
               <p className="mx-[6px] hidden sm:block">||</p>
               <p>March 15, 2025</p>

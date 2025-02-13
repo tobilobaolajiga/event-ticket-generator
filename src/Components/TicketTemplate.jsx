@@ -19,12 +19,10 @@ export default function TicketTemplate({ ticketRef }) {
             Techember Fest '25{' '}
           </h2>
           <p className="font-roboto text-[10px] leading-6" id="location">
-            <i className="ri-map-pin-line mr-[3px]" id="pin"></i>
-            11 Oxford Avenue, Lekki, Lagos
+            📍11 Oxford Avenue, Lekki, Lagos
           </p>
           <p className="font-roboto text-[10px]" id="date">
-            <i className="ri-calendar-line mr-[4px]" id="calendar"></i>March 15,
-            2025 <span className="mx-2">|</span>7:00 PM
+            📅 March 15, 2025 <span className="mx-2">|</span>7:00 PM
           </p>
 
           <img
@@ -76,10 +74,7 @@ export default function TicketTemplate({ ticketRef }) {
             </div>
           </div>
         </div>
-        <img
-          src={barcode}
-          className="absolute bottom-[24px] left-8 "
-        />
+        <img src={barcode} className="absolute bottom-[24px] left-8 " />
       </div>
     </div>
   );
