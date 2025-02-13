@@ -96,7 +96,7 @@ export default function TicketSelection({
             Cancel
           </button>
           <button
-            className="py-2 px-6  bg-[#08252b] rounded-lg w-[100%] sm:w-[48%] cursor-pointer border border-[#24a0b5] text-[#24a0b5] outline-none hover:bg-[#24a0b5] hover:text-white focus:bg-[#24a0b5] focus:text-white "
+            className="py-2 px-6  bg-[#24a0b5] rounded-lg w-[100%] sm:w-[48%] cursor-pointer text-white outline-none hover:bg-[#24a0b5] hover:text-white focus:bg-[#24a0b5] focus:text-white "
             onClick={showAttendeeDetails}
           >
             Next

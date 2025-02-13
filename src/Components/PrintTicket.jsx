@@ -74,7 +74,7 @@ export default function PrintTicket({ showTicketSelect }) {
           Book Another Ticket
         </button>
         <button
-          className=" rounded-lg w-[100%] sm:w-[48%] cursor-pointer border border-[#24a0b5] text-[#24a0b5] outline-none hover:bg-[#24a0b5] hover:text-white py-2 focus:bg-[#24a0b5] focus:text-white"
+          className=" rounded-lg w-[100%] sm:w-[48%] cursor-pointer bg-[#24a0b5] text-white outline-none hover:bg-[#24a0b5] hover:text-white py-2 focus:bg-[#24a0b5] focus:text-white"
           onClick={downloadTicket}
         >
           {loading ? (
