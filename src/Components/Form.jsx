@@ -189,13 +189,13 @@ export default function Form({ showTicket, goBack }) {
 
         <div className="items-center justify-between mb-4 px-[4px] w-full flex flex-col-reverse sm:flex sm:flex-row gap-4 sm:gap-0 mt-6">
           <button
-            className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] sm:w-[48%] w-full rounded-lg  cursor-pointer outline-none hover:bg-[#24a0b5] hover:text-white"
+            className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] sm:w-[48%] w-full rounded-lg  cursor-pointer outline-none hover:bg-[#24a0b5] hover:text-white focus:bg-[#24a0b5] focus:text-white"
             onClick={goBack}
           >
             Back
           </button>
           <button
-            className=" rounded-lg w-[100%] sm:w-[48%] cursor-pointer border border-[#24a0b5] text-[#24a0b5] outline-none hover:bg-[#24a0b5] hover:text-white py-2 "
+            className=" rounded-lg w-[100%] sm:w-[48%] cursor-pointer border border-[#24a0b5] text-[#24a0b5] outline-none hover:bg-[#24a0b5] hover:text-white py-2 focus:bg-[#24a0b5] focus:text-white "
             onClick={handleSubmit}
           >
             Get My Free Ticket

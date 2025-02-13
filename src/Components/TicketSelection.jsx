@@ -88,7 +88,7 @@ export default function TicketSelection({
 
         <div className=" flex flex-col-reverse sm:flex sm:flex-row items-center justify-between mb-8 mt-6 w-full gap-4">
           <button
-            className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] rounded-lg xs:w-[100%] sm:w-[48%]  cursor-pointer outline-none hover:bg-[#24a0b5] hover:text-white"
+            className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] rounded-lg xs:w-[100%] sm:w-[48%]  cursor-pointer outline-none hover:bg-[#24a0b5] hover:text-white focus:bg-[#24a0b5] focus:text-white"
             onClick={() => {
               setTicketOption(null);
             }}
@@ -96,7 +96,7 @@ export default function TicketSelection({
             Cancel
           </button>
           <button
-            className="py-2 px-6  bg-[#08252b] rounded-lg w-[100%] sm:w-[48%] cursor-pointer border border-[#24a0b5] text-[#24a0b5] outline-none hover:bg-[#24a0b5] hover:text-white "
+            className="py-2 px-6  focus:bg-[#24a0b5] focus:text-white"
             onClick={showAttendeeDetails}
           >
             Next
