@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
+import cloud from '../assets/cloud.svg';
+import envelope from '../assets/envelope.svg';
 import { ClipLoader } from 'react-spinners';
-import Ticket from './Ticket';
 import { toast } from 'react-toastify';
 
 export default function Form({ showTicket, goBack }) {
@@ -112,7 +113,7 @@ export default function Form({ showTicket, goBack }) {
                   </>
                 ) : (
                   <>
-                    <img src="src\assets\cloud.svg" />
+                    <img src={cloud} />
                     Drag & drop or click to <br /> upload{' '}
                   </>
                 )}
@@ -136,7 +137,7 @@ export default function Form({ showTicket, goBack }) {
                     </>
                   ) : (
                     <>
-                      <img src="src\assets\cloud.svg" />
+                      <img src={cloud} />
                       Drag & drop or click to <br /> upload{' '}
                     </>
                   )}
@@ -171,10 +172,7 @@ export default function Form({ showTicket, goBack }) {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <img
-            src="src\assets\envelope.svg"
-            className="absolute top-[43px] left-4 "
-          />
+          <img src={envelope} className="absolute top-[43px] left-4 " />
         </div>
         <label className="px-2 my-3 font-roboto text-[16px]">
           {' '}

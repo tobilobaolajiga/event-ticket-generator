@@ -1,3 +1,6 @@
+import ticket from '../assets/ticket.svg';
+import barcode from '../assets/barcode.svg';
+
 export default function TicketTemplate({ ticketRef }) {
   const photo = localStorage.getItem('photo');
   const name = localStorage.getItem('name');
@@ -9,7 +12,7 @@ export default function TicketTemplate({ ticketRef }) {
   return (
     <div ref={ticketRef}>
       <div className="my-4 relative">
-        <img src="src\assets\ticket.svg" alt="" />
+        <img src={ticket} alt="" />
 
         <div className="border-[#24a0b5] border bg-[#031e21]/10 rounded-2xl flex flex-col items-center justify-center absolute top-0 mt-6 mb-4 mx-4 py-4">
           <h2 className="font-road text-[34px] -mb-2" id="heading">
@@ -74,7 +77,7 @@ export default function TicketTemplate({ ticketRef }) {
           </div>
         </div>
         <img
-          src="src\assets\barcode.svg"
+          src={barcode}
           className="absolute bottom-[24px] left-8 "
         />
       </div>

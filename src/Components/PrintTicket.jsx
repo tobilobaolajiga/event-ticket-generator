@@ -2,6 +2,7 @@ import DomToImage from 'dom-to-image';
 import TicketTemplate from './TicketTemplate';
 import { ClipLoader } from 'react-spinners';
 import { useRef, useState } from 'react';
+
 export default function PrintTicket({ showTicketSelect }) {
   const [loading, setLoading] = useState(false);
   const ticketRef = useRef();

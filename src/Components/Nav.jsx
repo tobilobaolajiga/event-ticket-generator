@@ -1,9 +1,10 @@
 import React from 'react';
-
+import logo from '../assets/logo.svg';
+import arrow from '../assets/right-arrow.svg';
 export default function Nav() {
   return (
     <div className="xs:min-w-[335px] md:w-[80%] w-full flex justify-between items-center border border-[#197686] rounded-2xl mt-6 mb-8 p-2 backdrop-blur-[2px]">
-      <img src="src\assets\logo.svg" alt="" />
+      <img src={logo} alt="Logo" />
 
       <div className="flex items-center gap-6 text-[#B3B3B3] text-[18px] font-jeju xs:hidden sm:flex">
         <p>Events</p>
@@ -12,7 +13,7 @@ export default function Nav() {
       </div>
 
       <div className="flex gap-[5px] items-center bg-white text-[#0A0C11] py-2 px-3 rounded-md text-[16px] font-jeju">
-        MY TICKETS <img src="src\assets\right-arrow.svg" />
+        MY TICKETS <img src={arrow} />
       </div>
     </div>
   );

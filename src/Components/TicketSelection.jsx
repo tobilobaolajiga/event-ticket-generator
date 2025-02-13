@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import AttendeeDetails from './AttendeeDetails';
+
 import TicketType from './TicketType';
 
 export default function TicketSelection({
