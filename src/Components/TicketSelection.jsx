@@ -12,7 +12,7 @@ export default function TicketSelection({
     <div>
       <div className="sm:border sm:border-[#0e464f] rounded-2xl my-8 min-w-[300px] sm:w-[650px] -ml-4 sm:-ml-2 bg-[#08252b sm:px-6">
         <div
-          className="flex items-center flex-col justify-center gap-2 border border-[#07373F] py-4 rounded-2xl my-4 backdrop-blur-[7px] min-w-[280px] "
+          className="flex items-center flex-col justify-center gap-2 border border-[#07373F] py-4 rounded-2xl my-4 backdrop-blur-[7px] min-w-[280px] shadow-2xl "
           style={{
             backgroundImage:
               'radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%)',
@@ -21,7 +21,7 @@ export default function TicketSelection({
           <h2 className="text-[54px] sm:text-[62px] font-road -mb-2">
             Techember Fest '25
           </h2>
-          <p className="font-roboto text-[14px] sm:text-[16px] text-center mx-4 sm:w-[350px]">
+          <p className="font-roboto text-[14px] sm:text-[16px] text-center mx-4 w-[200px] sm:w-[350px]">
             Join us for an unforgettable experience at Techember! Secure your
             spot now.
           </p>
