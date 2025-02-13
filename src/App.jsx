@@ -17,11 +17,8 @@ function App() {
   );
 
   const showTicket = () => {
-    setTicket(true);
     setAttendeeDetails(false);
-
-    console.log(ticket);
-    console.log(attendeeDetails);
+    setTicket(true);
   };
   const handleTicketOption = (option) => {
     setTicketOption(option);
