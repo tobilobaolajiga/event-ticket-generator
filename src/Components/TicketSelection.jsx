@@ -1,0 +1,103 @@
+import { useState } from 'react';
+import AttendeeDetails from './AttendeeDetails';
+import TicketType from './TicketType';
+
+export default function TicketSelection({
+  showAttendeeDetails,
+  ticketOption,
+  setTicketOption,
+  handleTicketOption,
+  ticketNo,
+  setTicketNo,
+}) {
+  return (
+    <div>
+      <div className="sm:border sm:border-[#0e464f] rounded-2xl px-6 my-8 xs:min-w-[300px] sm:w-[650px] xs:-ml-4 sm:ml-0 bg-[#08252b">
+        <div
+          className="flex items-center flex-col justify-center gap-2 border border-[#07373F] py-4 rounded-2xl my-4 backdrop-blur-[7px]"
+          style={{
+            backgroundImage:
+              'radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%)',
+          }}
+        >
+          <h2 className="xs:text-[46px] sm:text-[62px] font-road -mb-4">
+            Techember Fest '25
+          </h2>
+          <p className="font-roboto xs:text-[14px] sm:text-[16px] text-center mx-4 sm:w-[350px]">
+            Join us for an unforgettable experience at Techember! Secure your
+            spot now.
+          </p>
+          <div className="font-roboto text-[16px] xs:flex-col xs:flex xs:items-center xs:justify-center sm:flex sm:flex-row xs:mt-4 sm:mt-0">
+            <p>
+              {' '}
+              <i className="ri-map-pin-line mr-[3px]"></i> Oniru, Lekki
+            </p>
+            <div className="flex">
+              <p className="mx-[6px] xs:hidden sm:block">||</p>
+              <p>March 15, 2025</p>
+              <p className="mx-[6px]"> |</p>
+              <p>7:00PM</p>
+            </div>
+          </div>
+        </div>
+        <hr className="border border-[#07373F] my-8" />
+
+        <p className="font-roboto text-[16px] mb-2">Select Ticket Type:</p>
+
+        <div className="sm:grid sm:grid-cols-3  border items-center justify-evenly border-[#07373F] bg-[#052228] rounded-2xl p-4 gap-4 mb-6  ">
+          <TicketType
+            type="REGULAR ACCESS"
+            amountLeft="20/52"
+            price="Free"
+            ticketOption={ticketOption}
+            handleTicketOption={handleTicketOption}
+          />
+          <TicketType
+            type="VIP ACCESS"
+            amountLeft="20/52"
+            price="$50"
+            ticketOption={ticketOption}
+            handleTicketOption={handleTicketOption}
+          />
+          <TicketType
+            type="VVIP ACCESS"
+            amountLeft="20/52"
+            price="$150"
+            ticketOption={ticketOption}
+            handleTicketOption={handleTicketOption}
+          />
+        </div>
+
+        <p className="font-roboto text-[16px] mb-2">Number of Tickets</p>
+        <select
+          className="border w-full rounded-md py-2 border-[#07373F] mb-6 px-2 box-border text-white bg-[#02191D] outline-none "
+          value={ticketNo}
+          onChange={(e) => setTicketNo(e.target.value)}
+        >
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+        <div className=" xs:flex xs:flex-col-reverse sm:flex sm:flex-row items-center justify-between mb-8 w-full xs:gap-4">
+          <button
+            className="py-2 px-6 border border-[#24a0b5] text-[#24a0b5] rounded-lg xs:w-[100%] sm:w-[48%]  cursor-pointer outline-none"
+            onClick={() => {
+              setTicketOption(null);
+            }}
+          >
+            Cancel
+          </button>
+          <button
+            className="py-2 px-6 text-white bg-[#24a0b5] rounded-lg xs:w-[100%] sm:w-[48%] cursor-pointer outline-none"
+            onClick={showAttendeeDetails}
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
