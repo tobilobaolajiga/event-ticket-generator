@@ -103,10 +103,10 @@ export default function Form({ showTicket, goBack }) {
           <label className="px-4 mt-3 mb-10 font-roboto text-[16px]">
             Upload Profile Photo
           </label>
-          <div className="sm:bg-[#000000]/20 flex justify-center mx-4 relative sm:w-[510px] h-[150px] sm:h-[200px] mb-6 group ">
+          <div className="sm:bg-[#000000]/20 flex justify-center mx-[24px] sm:mx-auto relative sm:w-[510px] h-[150px] sm:h-[200px] mb-6 group ">
             {!photo && (
               <div
-                className="bg-[#0e464f] sm:w-[250px] rounded-2xl w-[200px] h-[200px] sm:h-[250px] z-10 flex flex-col justify-center items-center text-center text-[#FAFAFA]font-roboto text-[16px] cursor-pointer absolute -bottom-[22px] border-4 border-[#24a0b5] left-4 sm:left-auto"
+                className="bg-[#0e464f] sm:w-[250px] rounded-2xl w-[200px] h-[200px] sm:h-[250px] z-10 flex flex-col justify-center items-center text-center text-[#FAFAFA]font-roboto text-[16px] cursor-pointer absolute -bottom-[22px] border-4 border-[#24a0b5]  sm:left-auto"
                 onClick={openWidget}
               >
                 {loading ? (
