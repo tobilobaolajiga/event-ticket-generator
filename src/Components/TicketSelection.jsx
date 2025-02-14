@@ -12,7 +12,7 @@ export default function TicketSelection({
     <div>
       <div className="sm:border sm:border-[#0e464f] rounded-2xl my-8 min-w-[300px] sm:w-[650px] -ml-4 sm:-ml-2 bg-[#08252b] sm:px-6">
         <div
-          className="flex items-center flex-col justify-center gap-2 border border-[#07373F] py-4 rounded-2xl my-4 backdrop-blur-[7px] min-w-[280px] shadow-2xl "
+          className="flex items-center flex-col justify-center gap-2 border-2 border-[#07373F] py-4 rounded-2xl my-4 backdrop-blur-[7px] min-w-[280px] shadow-2xl "
           style={{
             background:
               'radial-gradient(57.42% 106.59% at 14.02% 32.06%, rgba(36, 160, 181, 0.20) 0%, rgba(36, 160, 181, 0.00) 100%), rgba(10, 12, 17, 0.10)',
