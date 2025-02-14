@@ -28,7 +28,7 @@ export default function TicketTemplate({ ticketRef }) {
           <img
             src={photo}
             alt=""
-            className="rounded-xl my-4 border border-[#24a0b5]/50 w-[120px] h-[120px] "
+            className="rounded-xl my-4 border-4 border-[#24a0b5]/50 w-[120px] h-[120px] "
           />
 
           <div className="rounded-xl bg-[#08343c] border-[#133d44] flex flex-col  px-2 mx-2 mt-2">
