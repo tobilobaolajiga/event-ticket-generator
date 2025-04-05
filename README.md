@@ -3,7 +3,7 @@
 An event ticket generator
 
 ## 📸 Demo
-https://hng12-stage2-ticket-generator-kappa.vercel.app/
+https://event-ticket-generator.vercel.app/
 
 ## 🚀 Features
 - Auto-generated ticket
@@ -16,7 +16,7 @@ https://hng12-stage2-ticket-generator-kappa.vercel.app/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/tobilobaolajiga/hng12-stage2-ticket-generator.git
-cd hng12-stage2-ticket-generator
+git clone https://github.com/tobilobaolajiga/event-ticket-generator.git
+cd event-ticket-generator
 npm install
 npm run dev
